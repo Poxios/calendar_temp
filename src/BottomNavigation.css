@@ -1,0 +1,25 @@
+/* src/BottomNavigation.css */
+.bottom-navigation {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border-top: 1px solid #ddd;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-navigation button {
+  flex: 1;
+  padding: 10px 0;
+  font-size: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.bottom-navigation button.active {
+  font-weight: bold;
+  border-top: 2px solid #000;
+}

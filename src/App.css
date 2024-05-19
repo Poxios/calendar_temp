@@ -1,0 +1,4 @@
+/* src/App.css */
+.App {
+  padding-bottom: 60px; /* To prevent content from being hidden behind the bottom navigation */
+}
